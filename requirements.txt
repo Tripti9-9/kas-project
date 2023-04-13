@@ -1,0 +1,7 @@
+FastApi
+uvicorn
+pydantic[email, dotenv]
+datetime
+pyodbc==4.0.34
+pyjwt==2.5.0
+tensorflow==2.5.0

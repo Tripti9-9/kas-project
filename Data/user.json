@@ -1,0 +1,15 @@
+{
+    "id":1,
+    "name":"jack jones",
+    "exp": 1,
+    "Skills": "java",
+    "Mobile_Number": 6666666666,
+    "email": "ram@gmail.com",
+    "age": 23,
+    "dob": "2012-06-06",
+    "city": "pune", 
+    "hobbis": "reading",
+    "language": "english",
+    "marks":"61.1"
+
+  }
