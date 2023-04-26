@@ -33,10 +33,15 @@ def Get_All_users():
 def Single_image(image: UploadFile = File(...)):
     return imageRepository.UploadSingleImage(image)
 
+@router.post("/predict_image")
+def Pridect_image(image: UploadFile = File(...)):
+    return imageRepository.UploadPredictImage(image)
+
 @router.post("/uplodefile")
-def Multi_uplode_image(files: List[UploadFile] = File(...)):
-    #imageRepository.UplodeMultiImage(files)
-    return {"filenames": [file.filename for file in files]}
+def Multi_uplode_image(image: List[UploadFile] = File(...)):
+    #return imageRepository.UplodeMultiImage(image)
+    return {"filenames": [file.filename for file in image]}
+    
 
 
     
